@@ -1,0 +1,59 @@
+// .parent-div{
+//     display: flex;
+//     height: 600px;
+//     width: 600px;
+//     background-color: bisque;
+//     position: relative;
+
+//     .child-div-1{
+//         position: absolute;
+//         top: 3%;
+//         right: 2%;
+//     }
+//     .child-div-2{
+//         position: absolute;
+//         bottom: 30%;
+//         right: 20px;
+//     }
+// }
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.294);
+    width: 100%;
+    padding: 15px 0px;
+    position: absolute;
+
+    .left-element{
+        color: aliceblue;
+        margin-left: 10%;
+    }
+
+    .right-element{
+        color: aliceblue;
+        margin-right: 10%;
+        .right-eleemnt-lists{
+            display: flex;
+            li{
+                margin-left: 12px;
+            }
+        }
+    }
+}
+
+.hero-section{
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+
+    .hero-left{
+        margin-top: 25%;
+        margin-left: 10%;
+    }
+    .hero-right{
+        margin-top: 25%;
+        margin-right: 10%;
+    }
+}
